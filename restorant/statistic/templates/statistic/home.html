@@ -1,0 +1,20 @@
+{% extends 'statistic/base.html'%}
+
+
+{% block content %}
+<h2>Ingrese Archivo .JSON</h2>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile" accept=".json">
+    <button type="submit">Upload</button>
+</form>
+
+{% if file %}
+<p>
+  {{ file }}
+</p>
+{% endif %}
+
+
+{% endblock content %}
