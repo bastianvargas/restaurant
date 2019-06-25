@@ -22,5 +22,6 @@ con el servidor ya arriba, en la ruta home está disponible un formulario para a
 el cual en el momento de enviar inmediatamente(dependiendo del tamaño del dataset) se desplegara un gráfico con información útil para la gestión del negocio   
 
 
-![alt text](https://www.photobox.co.uk/my/photo/full?photo_id=501951920784)
+<img width="500" alt="Captura de pantalla 2019-06-24 a la(s) 22 47 02 copia" src="https://user-images.githubusercontent.com/14500233/60065952-9004a480-96d3-11e9-8ffc-7cabd7f8c57b.png">
+
 
