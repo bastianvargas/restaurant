@@ -20,3 +20,7 @@ python manage.py runserver
 
 con el servidor ya arriba, en la ruta home está disponible un formulario para adjuntar un archivo.json
 el cual en el momento de enviar inmediatamente(dependiendo del tamaño del dataset) se desplegara un gráfico con información útil para la gestión del negocio   
+
+
+![alt text](https://www.photobox.co.uk/my/photo/full?photo_id=501951920784)
+
