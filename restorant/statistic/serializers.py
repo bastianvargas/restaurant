@@ -29,9 +29,6 @@ class ReportSerializer(serializers.Serializer):
         """
         Check that the date is correct
         """
-        print("esto es lo que tiene date_closed", value)
         if value != datetime:
             value = datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
-            print("ahora tiene: ", value)
-            #raise serializers.ValidationError("Blog post is not about Django")
         return value
